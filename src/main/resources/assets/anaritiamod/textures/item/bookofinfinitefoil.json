@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "anaritiamod:item/book_of_infinite_foil"
+  }
+}

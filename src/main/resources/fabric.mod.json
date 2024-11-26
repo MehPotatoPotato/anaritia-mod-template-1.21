@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "anaritiamod",
+	"version": "${version}",
+	"name": "Anaritia Mod",
+	"description": "Mod filled with regrets, contract, and trust.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://aiden.net/",
+		"sources": "https://github.com/anaritia-mod-template-1.21"
+	},
+	"license": "MIT",
+	"icon": "assets/anaritiamod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.aiden.anaritiamod.AnaritiaMod"
+		],
+		"fabric-datagen": [
+			"net.aiden.anaritiamod.AnaritiaModDataGenerator"
+		],
+		"client": [
+			"net.aiden.anaritiamod.AnaritiaModClient"
+		]
+	},
+	"mixins": [
+		"anaritiamod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

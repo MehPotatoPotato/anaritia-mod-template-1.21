@@ -1,0 +1,32 @@
+{
+  "effects": {
+    "enchancement:rotation_burst": {
+      "cooldown": {
+        "type": "minecraft:add",
+        "value": {
+          "type": "minecraft:linear",
+          "base": 1.0,
+          "per_level_above_first": -0.25
+        }
+      },
+      "strength": {
+        "type": "minecraft:add",
+        "value": {
+          "type": "minecraft:linear",
+          "base": 2,
+          "per_level_above_first": 0.2
+        }
+      },
+      "wavedash_strength": {
+        "type": "minecraft:add",
+        "value": {
+          "type": "minecraft:linear",
+          "base": 1.3,
+          "per_level_above_first": -0.15
+        }
+      },
+      "wavedash_ticks": {
+        "type": "minecraft:add",
+        "value": 2.0
+      }
+    }
